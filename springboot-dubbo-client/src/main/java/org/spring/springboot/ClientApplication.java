@@ -20,5 +20,15 @@ public class ClientApplication {
         ConfigurableApplicationContext run = SpringApplication.run(ClientApplication.class, args);
         CityDubboConsumerService cityService = run.getBean(CityDubboConsumerService.class);
         cityService.printCity();
+        System.out.println("second invoke");
+        CityDubboConsumerService cityService2 = run.getBean(CityDubboConsumerService.class);
+        cityService2.printCity();
+        System.out.println("three invoke");
+        CityDubboConsumerService cityService3 = run.getBean(CityDubboConsumerService.class);
+        cityService3.printCity();
+        System.out.println("four invoke");
+        CityDubboConsumerService cityService4 = run.getBean(CityDubboConsumerService.class);
+        cityService4.printCity();
+
     }
 }

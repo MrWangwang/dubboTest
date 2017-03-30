@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="springboot-dubbo-client" />
+        <module name="springboot-dubbo-server" />
+        <module name="springboot-dubbo-server (1)" />
+        <module name="springboot-freemarker" />
+        <module name="springboot-helloworld" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-mybatis-mutil-datasource" />
+        <module name="springboot-restful" />
+        <module name="springboot-validation-over-json" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot" target="1.5" />
+      <module name="springboot-dubbo-client" target="1.6" />
+      <module name="springboot-dubbo-server" target="1.6" />
+      <module name="springboot-dubbo-server (1)" target="1.6" />
+      <module name="springboot-freemarker" target="1.6" />
+      <module name="springboot-helloworld" target="1.6" />
+      <module name="springboot-mybatis" target="1.6" />
+      <module name="springboot-mybatis-mutil-datasource" target="1.6" />
+      <module name="springboot-restful" target="1.6" />
+      <module name="springboot-validation-over-json" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
